@@ -1,0 +1,59 @@
+# gradle
+
+.gradle/
+build/
+out/
+classes/
+
+# eclipse
+
+*.launch
+
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# macos
+
+*.DS_Store
+
+# fabric
+
+run/
+
+# backups
+
+backups/
+
+# java
+
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
+
+# local secrets and environment files
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+
+
+# ferramentas locais do editor
+
+.github/modernize/

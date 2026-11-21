@@ -1,0 +1,33 @@
+
+{
+  "schemaVersion": 1,
+  "id": "smartinventory",
+  "version": "${version}",
+  "name": "SmartInventory",
+  "description": "SmartInventory is a Minecraft Fabric mod that helps players organize and manage their inventory. Features include automatic item sorting, compatible stack merging, protected favorite slots, inventory analysis, and a customizable HUD.",
+  "authors": [
+    "Vinicius Paiva"
+  ],
+  "contact": {
+    "homepage": "https://github.com/V1n1c1u5P4iva/SmartInventory",
+    "sources": "https://github.com/V1n1c1u5P4iva/SmartInventory",
+    "issues": "https://github.com/V1n1c1u5P4iva/SmartInventory/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/smartinventory/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.smartinventory.mod.SmartInventory"
+    ],
+    "client": [
+      "com.smartinventory.mod.client.SmartInventoryClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
